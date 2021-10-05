@@ -283,8 +283,8 @@ finally, you have less than <, greather than>, less than or equal <=, greater th
  | < | less than | 
   | <= | less than or equal | 
   | >= | greater than or equal| 
-    | == |  equal| 
-   | != | not equal| 
+  | == |  equal| 
+| != | not equal| 
 
    
 
