@@ -15,7 +15,7 @@ public class ClassName{
 
 the pieces will recur in all apps, it is worth spending all the time you need to become comfortable with the framework 
 
-## COnvention 
+## Convention 
 1. java is case sensitive, any mistakes in capitalization will not run 
 2. public is called an access modifier; control the evel of access other parts of program 
 3. program lives inside a class. basically everything must be inside a class. The rules for class names are quite generous being with a letter, and after that can have any combination of leters and digits. the length is essentially unlimited, we can use java reserved words 
