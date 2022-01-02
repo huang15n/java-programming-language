@@ -17,7 +17,9 @@ They should make good starting point for your own code and you are wiling, even 
 [Part1 Java Setup](lec1.md) an overiew of the capabilities of java set it apart from other languguages, guide you through compiling and running typical programs
 
 
-[Part2 Fundamental Programming Structure in Java, Data Types, Variables, and Strings ](lec1.md) variables,loops and simple functions, this is smooth sailing 
+[Part2 Fundamental Programming Structure in Java, Data Types, Variables, and Strings ](lec2.md) variables,loops and simple functions, this is smooth sailing 
+
+
 [Part3 Control Flow](java_language_basics.md) in the mainstream of programming pratices, encapsulation, foundational building blocks, classes and methods. Sound OOP design, marvelous javadoc tools that formats code comments as a set of hyperlinked web pages. 
 
 
