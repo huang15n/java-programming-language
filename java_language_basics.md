@@ -1,4 +1,4 @@
-# Java Language Basics 
+# Java Language Basics need to merge with lec2 
 
 
 
@@ -6,65 +6,12 @@
 
 ## primitive types 
 
-java has 8 primitive type 
-primtives includes 
-boolean and numbers 
-number includes integer, floating point and character 
 
 
 
-### ints 
-integer includes byte 8 bits, short 16 bits, int 32 bits, long 64 bits 
-```java
-byte age = 18; 
-short rank = 165; // -128 - 127
-int integer = 100;
-long number = 223_122_324L; // java 7
-int binary = 0b0100; // java 7
-int hex = 0x0042;
-
-
-```
-
-### floats 
-floating point includes float and double 
-float has 32 bits 6-7 decimal points 0.0f.
-we have to use the 0.0f otherwise it will generate a compilation error for double precision lossy 
-
-double has 64 bits which has 15-16 decimal points 0.0d
-
-```java
-float number = 3.2f;
-
-
-```
-
-### char [0,65535]
-
-character includes char 
-char is a single character 
-the data representation is 16 unsigned integer java uses unicode 16 
-0 - 2^16
-
-```java
-
-char a = 'a';
-char a = 65; // A
-char a = 0x0041; // A 
-char a = 0b010; //A
-```
-
-a char variable can be 1. unicode escape sequece 2. char litearl 3. int litearl 
-
-
-### boolean types 
-
-by default, a boolean variable is initialized with false 
-by depth, it is defined under the specifc jvm implementation so it can vary 
-
-
-
-## Type casting
+ 
+ 
+ 
 
 ### implicit casting 
 once the variable has been declared with one type, it has to stick to that type but sometimes if we want to assign variable with a value which is of other data typse 

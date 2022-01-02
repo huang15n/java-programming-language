@@ -35,7 +35,7 @@ Notice the periods used to invoked a method. java uses the general syntax: objec
 
 
 
-## comments 
+## Comments 
 comments do not show up in the executable program 
 
 the most common form is //
@@ -78,6 +78,12 @@ Java is a storngly typed language. this means that every variable must have a de
 there are primitive types in java. four of them are integers types, two are floating point numbers types. one is the character type char, used for code units in the Unicode encoding scheme and one is a boolean type for truth values.  since java mus trun with the same results on all machines, the ranges for the various types are fixed 
 
 
+java has 8 primitive type 
+primtives includes 
+boolean and numbers 
+number includes integer, floating point and character 
+
+
 ### Integer types 
 the integer types are for numbers wihtou fractional parts. the int type is the most practical, resort to long if represent the numbre o finhbitatnts. byte and short types are mainly intended for specialzed apps 
 
@@ -88,6 +94,17 @@ the integer types are for numbers wihtou fractional parts. the int type is the m
 | short  | 2 bytes | nothing|
 | long  | 8 bytes | l/ L|
 | byte  | 1 bytes | nothing|
+
+integer includes byte 8 bits, short 16 bits, int 32 bits, long 64 bits 
+```java
+byte age = 18; 
+short rank = 165; // -128 - 127
+int integer = 100;
+long number = 223_122_324L; // java 7
+int binary = 0b0100; // java 7
+int hex = 0x0042;
+```
+
 
 ### Floating Point types 
 the floating point types denotes numbers with fractional parts. the double refers to the fact that these numbers have twice the precision of the float type, float have a suffix F or f. floating point numbres without a F are always considered to be of type double. note round off errors are caused by the fact that floating point numbres arre represented in the binary number systems 
@@ -100,11 +117,39 @@ the floating point types denotes numbers with fractional parts. the double refer
 
 in particular three special floating point values to denote overflows anderrors Positive.infinity, Negative.infinity, Nan not a number 
 
+floating point includes float and double 
+float has 32 bits 6-7 decimal points 0.0f.
+we have to use the 0.0f otherwise it will generate a compilation error for double precision lossy 
 
-###  The char type 
+double has 64 bits which has 15-16 decimal points 0.0d
+
+```java
+float number = 3.2f;
+
+
+```
+
+
+###  The char type [0,65535]
 the char type was orginally intended to describe individual characters. however, this is no longer the case. literal value of type char are enclosed in single quote: 'A';
 the unicode encoding scheme was invented to overcome the limitations of tranditonal character encoding schemes with large character sets have variable lengths and insufficient to describe all unicode characters. 
 the characters in a basic multiligual plane are represented as 18 bits values, called code units. the supplementary characters are encoded as consecutive paris of code units 
+
+
+character includes char 
+char is a single character 
+the data representation is 16 unsigned integer java uses unicode 16 
+0 - 2^16
+a char variable can be 1. unicode escape sequece 2. char litearl 3. int literal
+
+```java
+
+char a = 'a';
+char a = 65; // A
+char a = 0x0041; // A 
+char a = 0b010; //A
+```
+
 
 ### Escape Sequence 
 | Escape Sequence  | Name | 
@@ -119,6 +164,9 @@ the characters in a basic multiligual plane are represented as 18 bits values, c
 
 ###  boolean types 
 the boolean types are two values, false and true. it is used for evaluating logical conditoins. you cannot convert between integers and boolean values 
+by default, a boolean variable is initialized with false 
+by depth, it is defined under the specifc jvm implementation so it can vary 
+
 
 
 
