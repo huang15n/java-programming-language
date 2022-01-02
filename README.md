@@ -17,22 +17,19 @@ They should make good starting point for your own code and you are wiling, even 
 [Part1 Java Setup](lec1.md) an overiew of the capabilities of java set it apart from other languguages, guide you through compiling and running typical programs
 
 
-[Part2 Fundamental Programming Structure in Java, Data Types, Variables, and Strings ](lec2.md) variables,loops and simple functions, this is smooth sailing 
+[Part2 Fundamental Programming Structure in Java, Data Types, Variables, and Strings ](lec1.md) variables,loops and simple functions, this is smooth sailing 
+[Part3 Control Flow](java_language_basics.md) in the mainstream of programming pratices, encapsulation, foundational building blocks, classes and methods. Sound OOP design, marvelous javadoc tools that formats code comments as a set of hyperlinked web pages. 
 
 
-[Part3 Control Flow](lec3.md) in the mainstream of programming pratices, encapsulation, foundational building blocks, classes and methods. Sound OOP design, marvelous javadoc tools that formats code comments as a set of hyperlinked web pages. 
+[Part4 Object Oriented Programming and Encapsulation](java_language_oop.md) in the mainstream of programming pratices, encapsulation, foundational building blocks, classes and methods. Sound OOP design, marvelous javadoc tools that formats code comments as a set of hyperlinked web pages. 
 
 
-[Part4 Object Oriented Programming Encapsulation](lec4.md) in the mainstream of programming pratices, encapsulation, foundational building blocks, classes and methods. Sound OOP design, marvelous javadoc tools that formats code comments as a set of hyperlinked web pages. 
+[Part5 Object Oriented Programming Inheritance](java_language_inheritance_polymorphism_abstract_class_interface.md) take an existing class and modify it according to your needs. 
+
+[Part6 Object Oriented Programming Interface](java_language_inheritance_polymorphism_abstract_class_interface.md) mastering interfaces allow you to have the full access to the power of completely oop approach to programming. Lambda expression, a concise way for expressing a block of code that can be executed at a later point 
 
 
-[Part5 Object Oriented Programming Inheritance](lec5.md) take an existing class and modify it according to your needs. 
-
-
-[Part6 Object Oriented Programming Interface](lec6.md) mastering interfaces allow you to have the full access to the power of completely oop approach to programming. Lambda expression, a concise way for expressing a block of code that can be executed at a later point 
-
-
-[Part7 Exception Handling](lec7.md) robust mechanism to deal with the fact that give you an efficent way of separating the normal processing code from the error handling 
+[Part7 Exception Handling](java_exception_handling.md) robust mechanism to deal with the fact that give you an efficent way of separating the normal processing code from the error handling 
 
 [Part8 Generic Programming](lec8.md) strong typing and remove unsightly and unsafe casts, how to deal with the complexities that arise from the need to stay compatible with older versions 
 
